@@ -93,7 +93,7 @@ public class AdSamples {
         + "</VAST>";
 
 
-    public static final String VAST_2_0_WITH_AD_TAG_URI = "<VAST version=\"2.0\">\n"
+    public static final String VAST_2_0_WRAPPER_AD = "<VAST version=\"2.0\">\n"
         + "<Ad>\n"
         + "<Wrapper>\n"
         + "<AdSystem>Improve Digital</AdSystem>\n"

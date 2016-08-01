@@ -23,7 +23,7 @@ public class VastDeserializerTest {
         VAST objVast = null;
 
         try {
-            objVast = SimpleXmlParser.parseVast(AdSamples.VAST_2_0_WITH_AD_TAG_URI);
+            objVast = SimpleXmlParser.parseVast(AdSamples.VAST_2_0_WRAPPER_AD);
         }catch (Exception e){
             fail(e.getMessage());
         }

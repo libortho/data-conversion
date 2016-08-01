@@ -13,8 +13,6 @@ import org.simpleframework.xml.Root;
  * @link https://github.com/yeshodhan/android-jaxb
  * 
  */
-@Root(name = "Creative")
-@Namespace(reference = "")
 public class Creative {
 
     @Element(name = "Linear", required = false)

@@ -13,8 +13,6 @@ import org.simpleframework.xml.Root;
  * @link https://github.com/yeshodhan/android-jaxb
  * 
  */
-@Root(name = "Companion_type")
-@Namespace(reference = "")
 public class CompanionType {
 
     @Element(name = "StaticResource", required = false)

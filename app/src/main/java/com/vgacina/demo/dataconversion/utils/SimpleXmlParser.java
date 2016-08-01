@@ -1,6 +1,7 @@
 package com.vgacina.demo.dataconversion.utils;
 
 import com.vgacina.demo.dataconversion.model.vast.Ad;
+import com.vgacina.demo.dataconversion.model.vast.VAST;
 
 import org.simpleframework.xml.Serializer;
 import org.simpleframework.xml.core.Persister;
@@ -10,15 +11,15 @@ import org.simpleframework.xml.core.Persister;
  */
 public class SimpleXmlParser {
 
-    public static Ad parseAd(final String adXML){
+    public static VAST parseVast(final String vastXML) throws Exception{
         Serializer serializer = new Persister();
-        Ad ad = null;
+        VAST vast = null;
         try {
-            ad = serializer.read(Ad.class, adXML);
+            vast = serializer.read(VAST.class, vastXML);
         }catch (Exception e){
-            e.printStackTrace();
+            throw e;
         }
-        return ad;
+        return vast;
     }
 
 

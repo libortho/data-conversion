@@ -13,8 +13,6 @@ import org.simpleframework.xml.Text;
  * @link https://github.com/yeshodhan/android-jaxb
  * 
  */
-@Root(name = "ClickTracking")
-@Namespace(reference = "")
 public class ClickTracking {
 
     @Text(required = true)

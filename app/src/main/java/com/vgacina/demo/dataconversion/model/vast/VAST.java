@@ -15,7 +15,6 @@ import org.simpleframework.xml.Root;
  * 
  */
 @Root(name = "VAST")
-@Namespace(reference = "")
 public class VAST {
 
     @ElementList(name = "Ad", entry = "Ad", inline = true, required = false)

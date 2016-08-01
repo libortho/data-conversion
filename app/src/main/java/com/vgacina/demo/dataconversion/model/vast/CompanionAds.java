@@ -14,8 +14,6 @@ import org.simpleframework.xml.Root;
  * @link https://github.com/yeshodhan/android-jaxb
  * 
  */
-@Root(name = "CompanionAds")
-@Namespace(reference = "")
 public class CompanionAds {
 
     @ElementList(name = "Companion", entry = "Companion", inline = true, required = false)

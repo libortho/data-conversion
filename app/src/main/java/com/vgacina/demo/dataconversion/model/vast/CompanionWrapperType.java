@@ -15,8 +15,6 @@ import org.simpleframework.xml.Root;
  * @link https://github.com/yeshodhan/android-jaxb
  * 
  */
-@Root(name = "CompanionWrapper_type")
-@Namespace(reference = "")
 public class CompanionWrapperType {
 
     @Element(name = "StaticResource", required = false)

@@ -13,8 +13,6 @@ import org.simpleframework.xml.Root;
  * @link https://github.com/yeshodhan/android-jaxb
  * 
  */
-@Root(name = "Ad")
-@Namespace(reference = "")
 public class Ad {
 
     @Element(name = "InLine", required = false)

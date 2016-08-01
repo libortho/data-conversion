@@ -21,7 +21,7 @@ public class Linear {
     private Icons icons;
     @Element(name = "CreativeExtensions", required = false)
     private CreativeExtensionsType creativeExtensions;
-    @Element(name = "Duration", required = true)
+    @Element(name = "Duration", required = false)
     private String duration;
     @Element(name = "TrackingEvents", required = false)
     private TrackingEventsType trackingEvents;

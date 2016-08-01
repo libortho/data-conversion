@@ -13,8 +13,6 @@ import org.simpleframework.xml.Text;
  * @link https://github.com/yeshodhan/android-jaxb
  * 
  */
-@Root(name = "ClickThrough")
-@Namespace(reference = "")
 public class ClickThrough {
 
     @Text(required = true)

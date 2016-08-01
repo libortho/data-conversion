@@ -13,8 +13,6 @@ import org.simpleframework.xml.Text;
  * @link https://github.com/yeshodhan/android-jaxb
  * 
  */
-@Root(name = "AdParameters_type")
-@Namespace(reference = "")
 public class AdParametersType {
 
     @Text(required = true)

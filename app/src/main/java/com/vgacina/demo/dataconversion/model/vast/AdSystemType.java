@@ -13,8 +13,6 @@ import org.simpleframework.xml.Text;
  * @link https://github.com/yeshodhan/android-jaxb
  * 
  */
-@Root(name = "AdSystem_type")
-@Namespace(reference = "")
 public class AdSystemType {
 
     @Text(required = true)
